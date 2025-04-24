@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		79A0595B2DBADC9D005C299C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 79A0595A2DBADC9B005C299C /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		79A057E52DBAA8DD005C299C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +31,25 @@
 		79A057D72DBAA8DB005C299C /* KenkoWorkoutTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KenkoWorkoutTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A057E42DBAA8DD005C299C /* KenkoWorkoutTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KenkoWorkoutTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A057EE2DBAA8DD005C299C /* KenkoWorkoutTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KenkoWorkoutTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A0595A2DBADC9B005C299C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		79A059572DBAD576005C299C /* Exceptions for "KenkoWorkoutTracker" folder in "KenkoWorkoutTracker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 79A057D62DBAA8DB005C299C /* KenkoWorkoutTracker */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		79A057D92DBAA8DB005C299C /* KenkoWorkoutTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				79A059572DBAD576005C299C /* Exceptions for "KenkoWorkoutTracker" folder in "KenkoWorkoutTracker" target */,
+			);
 			path = KenkoWorkoutTracker;
 			sourceTree = "<group>";
 		};
@@ -75,6 +93,7 @@
 		79A057CE2DBAA8DB005C299C = {
 			isa = PBXGroup;
 			children = (
+				79A0595A2DBADC9B005C299C /* README.md */,
 				79A057D92DBAA8DB005C299C /* KenkoWorkoutTracker */,
 				79A057E72DBAA8DD005C299C /* KenkoWorkoutTrackerTests */,
 				79A057F12DBAA8DD005C299C /* KenkoWorkoutTrackerUITests */,
@@ -192,6 +211,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 79A057CE2DBAA8DB005C299C;
 			minimizedProjectReferenceProxies = 1;
@@ -212,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A0595B2DBADC9D005C299C /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +350,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -386,6 +408,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -400,6 +423,7 @@
 				DEVELOPMENT_TEAM = 8SNDXXC32G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KenkoWorkoutTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +452,7 @@
 				DEVELOPMENT_TEAM = 8SNDXXC32G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KenkoWorkoutTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

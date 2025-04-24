@@ -1,0 +1,80 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Dashboard" : {
+
+    },
+    "Finish" : {
+
+    },
+    "History" : {
+
+    },
+    "key_welcome_alreadyhasaccount" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Already have an account?"
+          }
+        }
+      }
+    },
+    "key_welcome_signinbutton" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SIGN IN"
+          }
+        }
+      }
+    },
+    "key_welcome_signupbutton" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SIGN UP"
+          }
+        }
+      }
+    },
+    "key_welcome_subtitle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign Up to continue"
+          }
+        }
+      }
+    },
+    "key_welcome_title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to Kenko"
+          }
+        }
+      }
+    },
+    "Next" : {
+
+    },
+    "Plans" : {
+
+    },
+    "Sign In" : {
+
+    },
+    "Sign Up" : {
+
+    },
+    "Stats" : {
+
+    }
+  },
+  "version" : "1.0"
+}

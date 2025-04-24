@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isOnboarded = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if isOnboarded {
+            HomeView()
+        } else {
+            OnboardingStackView(isOnboarded: $isOnboarded)
         }
-        .padding()
     }
 }
 
