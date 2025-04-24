@@ -9,7 +9,7 @@ import SwiftUI
 
 enum AppFont: String {
     case questrial = "Questrial-Regular"
-    case rubik = "Rubik-Regular"
+    case rubik = "Rubik"
     
     func font(size: UIFont.TextStyle) -> Font {
         Font.custom(self.rawValue,

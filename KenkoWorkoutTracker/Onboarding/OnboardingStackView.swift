@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct OnboardingStackView: View {
+    private enum Constant {
+        static let numberOfSteps = 5
+    }
     @Binding var isOnboarded: Bool
     @State private var path = NavigationPath()
     
@@ -15,17 +18,35 @@ struct OnboardingStackView: View {
         NavigationStack(path: $path) {
             WelcomeView(path: $path)
                 .navigationDestination(for: AuthInputRoute.self) { _ in
-                    GenderInputView(path: $path)
+                    GenderInputView(path: $path, numberOfSteps: Constant.numberOfSteps) { hash in
+                        path.append(hash)
+                    }
                 }
                 .navigationDestination(for: GenderInputRoute.self) { _ in
-                    HeightInputView(path: $path)
+                    AgeInputView(path: $path, numberOfSteps: Constant.numberOfSteps) { hash in
+                        path.append(hash)
+                    }
                 }
-                .navigationDestination(for: HeightInputRoute.self) { _ in
-                    WeightInputView(path: $path)
+                .navigationDestination(for: AgeInputRoute.self) { _ in
+                    UnitsOfMeasurementInputView(path: $path, numberOfSteps: Constant.numberOfSteps) { hash in
+                        path.append(hash)
+                    }
+                }
+                .navigationDestination(for: UnitsOfMeasurementInputRoute.self) { _ in
+                    WeightInputView(path: $path, numberOfSteps: Constant.numberOfSteps) { hash in
+                        path.append(hash)
+                    }
                 }
                 .navigationDestination(for: WeightInputRoute.self) { _ in
-                    isOnboarded = true
-                    return EmptyView()
+                    HeightInputView(path: $path, numberOfSteps: Constant.numberOfSteps) { hash in
+                        path.append(hash)
+                    }
+                }
+                .navigationDestination(for: HeightInputRoute.self) { _ in
+                    EmptyView()
+                        .onAppear {
+                            isOnboarded = true
+                        }
                 }
         }
     }

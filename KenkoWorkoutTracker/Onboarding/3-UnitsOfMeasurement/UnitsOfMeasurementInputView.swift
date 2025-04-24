@@ -9,20 +9,18 @@ import SwiftUI
 
 struct UnitsOfMeasurementInputView: View {
     @Binding var path: NavigationPath
+    let numberOfSteps: Int
+    let continueTapped: (any Hashable) -> Void
 
     var body: some View {
-        VStack {
-            Button("Sign Up") {
-                path.append(UnitsOfMeasurementInputRoute())
-            }
-            Button("Sign In") {
-                // Skip onboarding, load session
-                // You might set isOnboarded directly if sign in is successful
-            }
+        InputView(currentStep: path.count, numberOfSteps: numberOfSteps, title: String(localized: "key_inputunits_title"), routeMarker: UnitsOfMeasurementInputRoute(), continueTapped: continueTapped) {
+            EmptyView()
         }
     }
 }
 
 #Preview {
-    UnitsOfMeasurementInputView(path: .constant(NavigationPath()))
+    UnitsOfMeasurementInputView(path: .constant(NavigationPath()), numberOfSteps: 5) { hash in
+        print("Continue with hash> \(hash.hashValue)")
+    }
 }

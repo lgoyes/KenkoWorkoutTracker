@@ -61,6 +61,7 @@ struct WelcomeSignUpButtonsView: View {
             } label: {
                 Text("key_welcome_signupbutton")
                     .font(Constant.Button.font)
+                    .fontWeight(.bold)
                     .foregroundStyle(Constant.Button.foregroundColor)
                     .frame(width: screenWidth * Constant.Button.widthPercentage)
                     .padding()
@@ -98,6 +99,7 @@ struct WelcomeFooterView: View {
                     Text("key_welcome_signinbutton")
                         .font(Constant.Button.font)
                         .foregroundStyle(Constant.Button.foregroundColor)
+                        .fontWeight(.bold)
                 }
             }
             .padding(.trailing, Constant.trailingPadding)
