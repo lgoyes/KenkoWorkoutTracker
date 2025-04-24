@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		79A057E52DBAA8DD005C299C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A057CF2DBAA8DB005C299C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A057D62DBAA8DB005C299C;
+			remoteInfo = KenkoWorkoutTracker;
+		};
+		79A057EF2DBAA8DD005C299C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A057CF2DBAA8DB005C299C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A057D62DBAA8DB005C299C;
+			remoteInfo = KenkoWorkoutTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79A057D72DBAA8DB005C299C /* KenkoWorkoutTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KenkoWorkoutTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A057E42DBAA8DD005C299C /* KenkoWorkoutTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KenkoWorkoutTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A057EE2DBAA8DD005C299C /* KenkoWorkoutTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KenkoWorkoutTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		79A057D92DBAA8DB005C299C /* KenkoWorkoutTracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KenkoWorkoutTracker;
+			sourceTree = "<group>";
+		};
+		79A057E72DBAA8DD005C299C /* KenkoWorkoutTrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KenkoWorkoutTrackerTests;
+			sourceTree = "<group>";
+		};
+		79A057F12DBAA8DD005C299C /* KenkoWorkoutTrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KenkoWorkoutTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79A057D42DBAA8DB005C299C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A057E12DBAA8DD005C299C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A057EB2DBAA8DD005C299C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79A057CE2DBAA8DB005C299C = {
+			isa = PBXGroup;
+			children = (
+				79A057D92DBAA8DB005C299C /* KenkoWorkoutTracker */,
+				79A057E72DBAA8DD005C299C /* KenkoWorkoutTrackerTests */,
+				79A057F12DBAA8DD005C299C /* KenkoWorkoutTrackerUITests */,
+				79A057D82DBAA8DB005C299C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79A057D82DBAA8DB005C299C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79A057D72DBAA8DB005C299C /* KenkoWorkoutTracker.app */,
+				79A057E42DBAA8DD005C299C /* KenkoWorkoutTrackerTests.xctest */,
+				79A057EE2DBAA8DD005C299C /* KenkoWorkoutTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79A057D62DBAA8DB005C299C /* KenkoWorkoutTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A057F82DBAA8DD005C299C /* Build configuration list for PBXNativeTarget "KenkoWorkoutTracker" */;
+			buildPhases = (
+				79A057D32DBAA8DB005C299C /* Sources */,
+				79A057D42DBAA8DB005C299C /* Frameworks */,
+				79A057D52DBAA8DB005C299C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				79A057D92DBAA8DB005C299C /* KenkoWorkoutTracker */,
+			);
+			name = KenkoWorkoutTracker;
+			packageProductDependencies = (
+			);
+			productName = KenkoWorkoutTracker;
+			productReference = 79A057D72DBAA8DB005C299C /* KenkoWorkoutTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79A057E32DBAA8DD005C299C /* KenkoWorkoutTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A057FB2DBAA8DD005C299C /* Build configuration list for PBXNativeTarget "KenkoWorkoutTrackerTests" */;
+			buildPhases = (
+				79A057E02DBAA8DD005C299C /* Sources */,
+				79A057E12DBAA8DD005C299C /* Frameworks */,
+				79A057E22DBAA8DD005C299C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A057E62DBAA8DD005C299C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				79A057E72DBAA8DD005C299C /* KenkoWorkoutTrackerTests */,
+			);
+			name = KenkoWorkoutTrackerTests;
+			packageProductDependencies = (
+			);
+			productName = KenkoWorkoutTrackerTests;
+			productReference = 79A057E42DBAA8DD005C299C /* KenkoWorkoutTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79A057ED2DBAA8DD005C299C /* KenkoWorkoutTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A057FE2DBAA8DD005C299C /* Build configuration list for PBXNativeTarget "KenkoWorkoutTrackerUITests" */;
+			buildPhases = (
+				79A057EA2DBAA8DD005C299C /* Sources */,
+				79A057EB2DBAA8DD005C299C /* Frameworks */,
+				79A057EC2DBAA8DD005C299C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A057F02DBAA8DD005C299C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				79A057F12DBAA8DD005C299C /* KenkoWorkoutTrackerUITests */,
+			);
+			name = KenkoWorkoutTrackerUITests;
+			packageProductDependencies = (
+			);
+			productName = KenkoWorkoutTrackerUITests;
+			productReference = 79A057EE2DBAA8DD005C299C /* KenkoWorkoutTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79A057CF2DBAA8DB005C299C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					79A057D62DBAA8DB005C299C = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					79A057E32DBAA8DD005C299C = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 79A057D62DBAA8DB005C299C;
+					};
+					79A057ED2DBAA8DD005C299C = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 79A057D62DBAA8DB005C299C;
+					};
+				};
+			};
+			buildConfigurationList = 79A057D22DBAA8DB005C299C /* Build configuration list for PBXProject "KenkoWorkoutTracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79A057CE2DBAA8DB005C299C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 79A057D82DBAA8DB005C299C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79A057D62DBAA8DB005C299C /* KenkoWorkoutTracker */,
+				79A057E32DBAA8DD005C299C /* KenkoWorkoutTrackerTests */,
+				79A057ED2DBAA8DD005C299C /* KenkoWorkoutTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79A057D52DBAA8DB005C299C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A057E22DBAA8DD005C299C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A057EC2DBAA8DD005C299C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79A057D32DBAA8DB005C299C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A057E02DBAA8DD005C299C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A057EA2DBAA8DD005C299C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79A057E62DBAA8DD005C299C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A057D62DBAA8DB005C299C /* KenkoWorkoutTracker */;
+			targetProxy = 79A057E52DBAA8DD005C299C /* PBXContainerItemProxy */;
+		};
+		79A057F02DBAA8DD005C299C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A057D62DBAA8DB005C299C /* KenkoWorkoutTracker */;
+			targetProxy = 79A057EF2DBAA8DD005C299C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79A057F62DBAA8DD005C299C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8SNDXXC32G;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79A057F72DBAA8DD005C299C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8SNDXXC32G;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79A057F92DBAA8DD005C299C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SNDXXC32G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.goyes.KenkoWorkoutTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79A057FA2DBAA8DD005C299C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SNDXXC32G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.goyes.KenkoWorkoutTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79A057FC2DBAA8DD005C299C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SNDXXC32G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.goyes.KenkoWorkoutTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KenkoWorkoutTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KenkoWorkoutTracker";
+			};
+			name = Debug;
+		};
+		79A057FD2DBAA8DD005C299C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SNDXXC32G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.goyes.KenkoWorkoutTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KenkoWorkoutTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KenkoWorkoutTracker";
+			};
+			name = Release;
+		};
+		79A057FF2DBAA8DD005C299C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SNDXXC32G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.goyes.KenkoWorkoutTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KenkoWorkoutTracker;
+			};
+			name = Debug;
+		};
+		79A058002DBAA8DD005C299C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SNDXXC32G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.goyes.KenkoWorkoutTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KenkoWorkoutTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79A057D22DBAA8DB005C299C /* Build configuration list for PBXProject "KenkoWorkoutTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A057F62DBAA8DD005C299C /* Debug */,
+				79A057F72DBAA8DD005C299C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A057F82DBAA8DD005C299C /* Build configuration list for PBXNativeTarget "KenkoWorkoutTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A057F92DBAA8DD005C299C /* Debug */,
+				79A057FA2DBAA8DD005C299C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A057FB2DBAA8DD005C299C /* Build configuration list for PBXNativeTarget "KenkoWorkoutTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A057FC2DBAA8DD005C299C /* Debug */,
+				79A057FD2DBAA8DD005C299C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A057FE2DBAA8DD005C299C /* Build configuration list for PBXNativeTarget "KenkoWorkoutTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A057FF2DBAA8DD005C299C /* Debug */,
+				79A058002DBAA8DD005C299C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79A057CF2DBAA8DB005C299C /* Project object */;
+}
